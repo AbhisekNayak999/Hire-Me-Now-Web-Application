@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+
+.viewall-body {
+    background: linear-gradient(to bottom, #f5faff, #e6f2ff);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg-gradient-primary {
+    background: linear-gradient(to right, #48cae4, #00b4d8);
+}
+
+.container .alljob{
+	color: rgb(61, 61, 61);
+}
+
+
+.card {
+    border-radius: 12px;
+    background-color: #ffffff;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 64, 128, 0.1);
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+ul {
+    padding-left: 1.2rem;
+}
+
+.navbar .nav-link {
+    color: #fff !important;
+}
+
+.navbar .nav-link:hover {
+    text-decoration: underline;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.footer {
+    flex-shrink: 0;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px 0;
+}

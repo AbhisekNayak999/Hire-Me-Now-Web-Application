@@ -1,0 +1,49 @@
+.addjob-body {
+    background: linear-gradient(to right, #f0f8ff, #e6f2ff);
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg-gradient-primary {
+    background: linear-gradient(to right, #48cae4, #00b4d8);
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    border: none;
+}
+
+/* .card h2 { */
+/*     font-weight: 600; */
+/*     color: rgb(61, 61, 61); */
+/* } */
+
+.card h2 .cardheading{
+    font-weight: 600;
+    color: black;
+}
+
+.form-floating label {
+    color: #777;
+}
+
+.form-control:focus {
+    border-color: #0066cc;
+    box-shadow: 0 0 0 0.2rem rgba(0, 102, 204, 0.25);
+}
+
+.btn-primary {
+    background: linear-gradient(to right, #48cae4, #00b4d8);
+    border-color: #0066cc;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(to right, #48cae4, #00b4d8);
+    border-color: #004999;
+}
+
+.navbar .nav-link:hover {
+    text-decoration: underline;
+}

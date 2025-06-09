@@ -1,0 +1,109 @@
+/* Global background with gradient */
+body {
+    background: linear-gradient(to right, #edf6f9, #e0f7fa);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(to right, #48cae4, #00b4d8);
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.hero-section p {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+/* Card styling */
+.job-card {
+    border: none;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.job-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Button styles */
+.btn-outline-primary,
+.btn-outline-success {
+    padding: 12px 30px;
+    font-size: 1rem;
+    border-radius: 30px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+.btn-outline-success:hover {
+    background-color: #198754;
+    color: #fff;
+}
+
+/* Navbar tweaks */
+.navbar {
+    background-color: #ffffff !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.navbar-brand {
+    color: #0077b6;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #0077b6;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.footer {
+    flex-shrink: 0;
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    text-align: center;
+}
+
